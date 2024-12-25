@@ -24,7 +24,7 @@ apis:
       - type: Documentation
         url: https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
       - type: OpenAPI
-        url: properties/ovh-cloud-openapi-original.yml
+        url: openapiovh-cloud-openapi-original.yml
     aid: ovh-cloud:ovh-cloud
 
 common:
