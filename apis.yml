@@ -26,7 +26,8 @@ apis:
       hardware, configure your connectivity and install your preferred
       distribution.
 name: OVH Cloud
-tags: []
+tags:
+  - Cloud
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 common:
   - url: https://api.us.ovhcloud.com/
