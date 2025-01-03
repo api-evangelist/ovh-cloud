@@ -3,28 +3,6 @@ url: >-
 
   https://raw.githubusercontent.com/api-search/cloud/main/_apis/ovh-cloud/apis.md
 apis:
-  - aid: ovh-cloud:ovh-cloud-instance-category-api
-    name: OVH Cloud Instance Category  API
-    tags:
-      - Servers
-      - Cloud
-      - Compute
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: >-
-
-      https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
-    properties:
-      - url: openapi/ovh-cloud-instance-category-api-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: >-
-          https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
-    description: |
-
-      Bare-metal servers for your most demanding use-cases. Customize your
-      hardware, configure your connectivity and install your preferred
-      distribution.
   - aid: ovh-cloud:ovh-cloud-availability-api
     name: OVH Cloud Availability  API
     tags:
@@ -39,14 +17,22 @@ apis:
     properties:
       - url: openapi/ovh-cloud-availability-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
-    description: |
-
-      Bare-metal servers for your most demanding use-cases. Customize your
-      hardware, configure your connectivity and install your preferred
-      distribution.
+        type: Documentation
+    description: >-
+      The OVH Cloud Availability API is a sophisticated tool that allows users
+      to monitor the availability and performance of their cloud infrastructure
+      in real time. By providing detailed metrics and insights into the status
+      of their resources, users can quickly identify and address any potential
+      issues that may impact the performance of their applications or services.
+      With the ability to track key performance indicators such as response
+      times, error rates, and overall system health, the API helps users
+      maintain peak performance and ensure high availability of their cloud
+      resources. Additionally, the API enables users to set up alerts and
+      notifications to proactively address any issues before they impact their
+      operations, providing peace of mind and enabling them to focus on
+      delivering a seamless experience to their customers.
   - aid: ovh-cloud:ovh-cloud-instance-category-api
     name: OVH Cloud Instance Category  API
     tags:
@@ -61,14 +47,21 @@ apis:
     properties:
       - url: openapi/ovh-cloud-instance-category-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
-    description: |
-
-      Bare-metal servers for your most demanding use-cases. Customize your
-      hardware, configure your connectivity and install your preferred
-      distribution.
+        type: Documentation
+    description: >-
+      The OVH Cloud Instance Category API provides developers with a convenient
+      way to manage and retrieve information about different categories of cloud
+      instances on the OVH platform. This API allows users to programmatically
+      access and manipulate data related to various instance categories, such as
+      performance, pricing, and features. By using this API, developers can
+      easily integrate OVH cloud instance categories into their applications and
+      automate tasks such as provisioning new instances, scaling resources, and
+      monitoring usage. Overall, the OVH Cloud Instance Category API streamlines
+      the process of working with cloud instances on the OVH platform, making it
+      a valuable tool for developers looking to leverage the power of cloud
+      computing.
   - aid: ovh-cloud:ovh-cloud-activate-monthly-billing-api
     name: OVH Cloud Activate Monthly Billing  API
     tags:
@@ -83,9 +76,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-activate-monthly-billing-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-faq-billing?id=kb_article_view&sysparm_article=KB0054582
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -105,8 +98,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-capabilities-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/
+      - url: https://api.us.ovhcloud.com/
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -126,9 +119,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-confirm-termination-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-managed-bare-metal-how-to-cancel-service?id=kb_article_view&sysparm_article=KB0044459
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -148,9 +141,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-container-registry-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-public-cloud-ai-manage-registries?id=kb_article_view&sysparm_article=KB0057956
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -170,8 +163,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-database-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/
+      - url: https://api.us.ovhcloud.com/
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -191,9 +184,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-flavor-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-public-cloud-databases-update-cluster-flavor?id=kb_article_view&sysparm_article=KB0058853
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -213,9 +206,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-image-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-dedicated-servers-bringyourownimage?id=kb_article_view&sysparm_article=KB0043281
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -235,9 +228,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-instance-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -257,8 +250,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-ip-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/console/?section=%2Fip&branch=v1
+      - url: https://api.us.ovhcloud.com/console/?section=%2Fip&branch=v1
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -278,9 +271,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-kube-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-documentation-public-cloud-containers-orchestration-managed-kubernetes-k8s?id=kb_browse_cat&kb_id=574a8325551974502d4c6e78b7421938&kb_category=f334d555f49801102d4ca4d466a7fdd2
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -300,9 +293,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-lab-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -322,9 +315,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-loadbalancer-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-load-balancer-iplb-api-reference?id=kb_article_view&sysparm_article=KB0044244
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -344,9 +337,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-network-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -366,9 +359,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-operation-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-documentation-manage-operate-api?id=kb_browse_cat&kb_id=3d4a8129a884a950f07829d7d5c75243&kb_category=fa9069c859a1e5501e114c1e8f53e979
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -388,9 +381,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-quota-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://support.us.ovhcloud.com/hc/en-us/articles/22188629448339-Increasing-Public-Cloud-Quotas
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -410,8 +403,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-region-available-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://us.ovhcloud.com/public-cloud/regions-availability/
+      - url: https://us.ovhcloud.com/public-cloud/regions-availability/
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -431,8 +424,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-region-available-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://us.ovhcloud.com/public-cloud/regions-availability/
+      - url: https://us.ovhcloud.com/public-cloud/regions-availability/
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -452,9 +445,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-role-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -474,9 +467,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-service-infos-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -496,9 +489,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-snapshot-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-public-cloud-storage-nas-snapshots-api?id=kb_article_view&sysparm_article=KB0046777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -518,9 +511,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-sshkey-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-dedicated-servers-creating-ssh-keys?id=kb_article_view&sysparm_article=KB0043378
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -540,9 +533,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-stack-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-public-cloud-compute-starting-nova-api?id=kb_article_view&sysparm_article=KB0051252
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -562,9 +555,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-storage-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -584,9 +577,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-terminate-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-billing-how-to-cancel-services?id=kb_article_view&sysparm_article=KB0042821
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -606,9 +599,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-user-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -628,9 +621,9 @@ apis:
     properties:
       - url: openapi/ovh-cloud-volume-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: >-
+      - url: >-
           https://help.ovhcloud.com/csm/en-public-cloud-compute-volumes-openstack-api?id=kb_article_view&sysparm_article=KB0051242
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
@@ -650,8 +643,8 @@ apis:
     properties:
       - url: openapi/ovh-cloud-vrack-api-openapi.yml
         type: OpenAPI
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/console/?branch=v1&section=%2Fvrack
+      - url: https://api.us.ovhcloud.com/console/?branch=v1&section=%2Fvrack
+        type: Documentation
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
