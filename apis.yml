@@ -652,10 +652,6 @@ apis:
         type: OpenAPI
       - type: Documentation
         url: https://api.us.ovhcloud.com/console/?branch=v1&section=%2Fvrack
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/console/?branch=v1&section=%2Fvrack
-      - type: Documentation
-        url: https://api.us.ovhcloud.com/console/?branch=v1&section=%2Fvrack
     description: |
 
       Bare-metal servers for your most demanding use-cases. Customize your
