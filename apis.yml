@@ -877,7 +877,6 @@ description: >-
   customer-centric approach, OVH Cloud is dedicated to helping businesses
   succeed in the digital age.
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 specificationVersion: '0.16'
