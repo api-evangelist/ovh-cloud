@@ -558,7 +558,7 @@ apis:
       various tasks, such as provisioning new resources, scaling up or down, and
       monitoring usage and costs. Overall, this API streamlines the management
       of cloud services and enhances the overall efficiency and reliability of
-      OVH Clouds offerings.
+      OVH Clouds offerings.
   - aid: ovh-cloud:ovh-cloud-snapshot-api
     name: OVH Cloud Snapshot  API
     tags:
