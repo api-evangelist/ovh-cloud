@@ -1,17 +1,17 @@
 aid: ovh-cloud
-url: >-
+url: >2-
 
   https://raw.githubusercontent.com/api-search/cloud/main/_apis/ovh-cloud/apis.md
 apis:
   - aid: ovh-cloud:ovh-cloud-availability-api
     name: OVH Cloud Availability  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -36,12 +36,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-instance-category-api
     name: OVH Cloud Instance Category  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -65,12 +65,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-activate-monthly-billing-api
     name: OVH Cloud Activate Monthly Billing  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -92,12 +92,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-capabilities-api
     name: OVH Cloud Capabilities  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -118,12 +118,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-confirm-termination-api
     name: OVH Cloud Confirm Termination  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -145,12 +145,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-container-registry-api
     name: OVH Cloud Container Registry  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -172,12 +172,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-database-api
     name: OVH Cloud Database  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -199,12 +199,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-flavor-api
     name: OVH Cloud Flavor  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -228,12 +228,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-image-api
     name: OVH Cloud Image  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -254,12 +254,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-instance-api
     name: OVH Cloud Instance  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -281,12 +281,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-ip-api
     name: OVH Cloud Ip  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -308,12 +308,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-kube-api
     name: OVH Cloud Kube  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -337,12 +337,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-lab-api
     name: OVH Cloud Lab  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -367,12 +367,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-loadbalancer-api
     name: OVH Cloud Loadbalancer  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -394,12 +394,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-network-api
     name: OVH Cloud Network  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -421,12 +421,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-operation-api
     name: OVH Cloud Operation  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -448,12 +448,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-quota-api
     name: OVH Cloud Quota  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -477,12 +477,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-region-available-api
     name: OVH Cloud Region Available  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -504,12 +504,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-role-api
     name: OVH Cloud Role  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -532,12 +532,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-service-infos-api
     name: OVH Cloud Service Infos  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -562,12 +562,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-snapshot-api
     name: OVH Cloud Snapshot  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -588,12 +588,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-sshkey-api
     name: OVH Cloud Sshkey  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -616,12 +616,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-stack-api
     name: OVH Cloud Stack  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -645,12 +645,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-storage-api
     name: OVH Cloud Storage  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -673,12 +673,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-terminate-api
     name: OVH Cloud Terminate  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -700,12 +700,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-user-api
     name: OVH Cloud User  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -729,12 +729,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-volume-api
     name: OVH Cloud Volume  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
@@ -756,12 +756,12 @@ apis:
   - aid: ovh-cloud:ovh-cloud-vrack-api
     name: OVH Cloud Vrack  API
     tags:
-      - Servers
       - Cloud
       - Compute
+      - Servers
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.example.com
-    humanURL: >-
+    humanURL: >2-
 
       https://api.us.ovhcloud.com/console/?section=%2Fdedicated%2Fserver&branch=v1
     properties:
