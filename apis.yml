@@ -49,7 +49,7 @@ apis:
 common:
   - type: Developer
     url: https://api.us.ovhcloud.com/
-  - type: Status
+  - type: StatusPage
     url: https://status.us.ovhcloud.com/
   - type: Blog
     url: https://us.ovhcloud.com/resources/blog/
@@ -69,7 +69,7 @@ common:
     url: https://us.ovhcloud.com/glossary/
   - type: Login
     url: https://us.ovhcloud.com/auth/
-  - type: Signup
+  - type: SignUp
     url: https://us.ovhcloud.com/auth/
   - type: Website
     url: https://us.ovhcloud.com/
