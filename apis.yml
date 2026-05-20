@@ -10,73 +10,75 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Cloud
-- Compute
-- Servers
-- Hosting
+  - Cloud
+  - Compute
+  - Servers
+  - Hosting
 created: '2024-04-18'
 modified: '2026-05-19'
 url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-- aid: ovh-cloud:ovh-cloud-api
-  name: OVH Cloud API
-  description: The OVHcloud API enables programmatic management of OVHcloud resources including dedicated servers, public
-    cloud instances, storage, networking, Kubernetes, load balancers, container registries, databases, IP addressing, snapshots,
-    SSH keys, billing operations, quotas, regions, and the vRack private network. It is the unified surface for automating
-    the OVHcloud platform across compute, storage, network, and account lifecycle operations.
-  humanURL: https://api.us.ovhcloud.com/console/?branch=v1
-  baseURL: https://api.us.ovhcloud.com/v1
-  tags:
-  - Cloud
-  - Compute
-  - Servers
-  properties:
-  - type: Documentation
-    url: https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
-  - type: OpenAPI
-    url: openapi/ovh-cloud-openapi-original.yml
-  - type: Console
-    url: https://api.us.ovhcloud.com/console/?branch=v1
-  - type: NaftikoCapability
-    url: capabilities/ovh-cloud-cloud.yaml
+  - aid: ovh-cloud:ovh-cloud-api
+    name: OVH Cloud API
+    description: The OVHcloud API enables programmatic management of OVHcloud resources including dedicated servers, public
+      cloud instances, storage, networking, Kubernetes, load balancers, container registries, databases, IP addressing, snapshots,
+      SSH keys, billing operations, quotas, regions, and the vRack private network. It is the unified surface for automating
+      the OVHcloud platform across compute, storage, network, and account lifecycle operations.
+    humanURL: https://api.us.ovhcloud.com/console/?branch=v1
+    baseURL: https://api.us.ovhcloud.com/v1
+    tags:
+    - Cloud
+    - Compute
+    - Servers
+    properties:
+    - type: Documentation
+      url: https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+    - type: OpenAPI
+      url: openapi/ovh-cloud-openapi-original.yml
+    - type: Console
+      url: https://api.us.ovhcloud.com/console/?branch=v1
+    - type: NaftikoCapability
+      url: capabilities/ovh-cloud-cloud.yaml
 common:
-- type: LinkedIn
-  url: https://www.linkedin.com/company/ovhgroup
-- type: Developer
-  url: https://api.us.ovhcloud.com/
-- type: StatusPage
-  url: https://status.us.ovhcloud.com/
-- type: Blog
-  url: https://us.ovhcloud.com/resources/blog/
-- type: Support
-  url: https://us.ovhcloud.com/support/
-- type: CaseStudies
-  url: https://us.ovhcloud.com/resources/case-studies/
-- type: Videos
-  url: https://us.ovhcloud.com/videos/
-- type: Tutorials
-  url: https://us.ovhcloud.com/community/tutorials/
-- type: UseCases
-  url: https://us.ovhcloud.com/solutions/use-cases/
-- type: WhitePapers
-  url: https://us.ovhcloud.com/resources/white-papers/
-- type: Glossary
-  url: https://us.ovhcloud.com/glossary/
-- type: Login
-  url: https://us.ovhcloud.com/auth/
-- type: SignUp
-  url: https://us.ovhcloud.com/auth/
-- type: Website
-  url: https://us.ovhcloud.com/
-- type: About
-  url: https://us.ovhcloud.com/about/
-- type: PressReleases
-  url: https://us.ovhcloud.com/press/
-- type: TermsOfService
-  url: https://us.ovhcloud.com/legal/terms-of-service/
-- type: PrivacyPolicy
-  url: https://us.ovhcloud.com/legal/privacy-policy/
+  - type: GitHubOrganization
+    url: https://github.com/ovh
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ovhgroup
+  - type: Developer
+    url: https://api.us.ovhcloud.com/
+  - type: StatusPage
+    url: https://status.us.ovhcloud.com/
+  - type: Blog
+    url: https://us.ovhcloud.com/resources/blog/
+  - type: Support
+    url: https://us.ovhcloud.com/support/
+  - type: CaseStudies
+    url: https://us.ovhcloud.com/resources/case-studies/
+  - type: Videos
+    url: https://us.ovhcloud.com/videos/
+  - type: Tutorials
+    url: https://us.ovhcloud.com/community/tutorials/
+  - type: UseCases
+    url: https://us.ovhcloud.com/solutions/use-cases/
+  - type: WhitePapers
+    url: https://us.ovhcloud.com/resources/white-papers/
+  - type: Glossary
+    url: https://us.ovhcloud.com/glossary/
+  - type: Login
+    url: https://us.ovhcloud.com/auth/
+  - type: SignUp
+    url: https://us.ovhcloud.com/auth/
+  - type: Website
+    url: https://us.ovhcloud.com/
+  - type: About
+    url: https://us.ovhcloud.com/about/
+  - type: PressReleases
+    url: https://us.ovhcloud.com/press/
+  - type: TermsOfService
+    url: https://us.ovhcloud.com/legal/terms-of-service/
+  - type: PrivacyPolicy
+    url: https://us.ovhcloud.com/legal/privacy-policy/
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
