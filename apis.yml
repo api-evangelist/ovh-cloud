@@ -38,7 +38,7 @@ apis:
       url: openapi/ovh-cloud-openapi-original.yml
     - type: Console
       url: https://api.us.ovhcloud.com/console/?branch=v1
-    - type: NaftikoCapability
+    - type: X-NaftikoCapability
       url: capabilities/ovh-cloud-cloud.yaml
 common:
   - type: GitHubOrganization
@@ -67,7 +67,7 @@ common:
     url: https://us.ovhcloud.com/glossary/
   - type: Login
     url: https://us.ovhcloud.com/auth/
-  - type: SignUp
+  - type: Signup
     url: https://us.ovhcloud.com/auth/
   - type: Website
     url: https://us.ovhcloud.com/
