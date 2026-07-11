@@ -41,6 +41,12 @@ apis:
     - type: X-NaftikoCapability
       url: capabilities/ovh-cloud-cloud.yaml
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ovh-cloud-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ovh-cloud-domain-security.yml
+  - type: Authentication
+    url: authentication/ovh-cloud-authentication.yml
   - type: OAuthScopes
     url: scopes/ovh-cloud-scopes.yml
   - type: GitHubOrganization
