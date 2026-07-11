@@ -41,6 +41,8 @@ apis:
     - type: X-NaftikoCapability
       url: capabilities/ovh-cloud-cloud.yaml
 common:
+  - type: OAuthScopes
+    url: scopes/ovh-cloud-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/ovh
   - type: LinkedIn

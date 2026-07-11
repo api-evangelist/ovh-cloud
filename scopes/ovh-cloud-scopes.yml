@@ -1,0 +1,30 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/ovh-cloud-openapi-original.yml
+schemes:
+- name: oAuth2AuthCode
+  source: openapi/ovh-cloud-openapi-original.yml
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://us.ovhcloud.com/auth/oauth2/authorize
+    tokenUrl: https://us.ovhcloud.com/auth/oauth2/token
+  description: Oauth2
+scopes:
+- scope: account/all
+  description: Manage your account
+  flows:
+  - authorizationCode
+  sources:
+  - openapi/ovh-cloud-openapi-original.yml
+- scope: all
+  description: Manage your whole account and all your services
+  flows:
+  - authorizationCode
+  sources:
+  - openapi/ovh-cloud-openapi-original.yml
+- scope: services/all
+  description: Manage your services lifecycle and billing
+  flows:
+  - authorizationCode
+  sources:
+  - openapi/ovh-cloud-openapi-original.yml
