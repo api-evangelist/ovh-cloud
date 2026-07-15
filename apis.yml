@@ -41,6 +41,8 @@ apis:
     - type: X-NaftikoCapability
       url: capabilities/ovh-cloud-cloud.yaml
 common:
+  - type: AgenticAccess
+    url: agentic-access/ovh-cloud-agentic-access.yml
   - type: VulnerabilityDisclosure
     url: security/ovh-cloud-vulnerability-disclosure.yml
   - type: DomainSecurity
