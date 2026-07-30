@@ -6,9 +6,22 @@ description: OVH Cloud is a leading provider of cloud computing services that of
   data centers located around the world, OVH Cloud offers high availability, scalability, and flexibility to meet the needs
   of its customers.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ovh-cloud.png
 tags:
   - Cloud
   - Compute
@@ -19,27 +32,23 @@ modified: '2026-05-19'
 url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: ovh-cloud:ovh-cloud-api
-    name: OVH Cloud API
-    description: The OVHcloud API enables programmatic management of OVHcloud resources including dedicated servers, public
-      cloud instances, storage, networking, Kubernetes, load balancers, container registries, databases, IP addressing, snapshots,
-      SSH keys, billing operations, quotas, regions, and the vRack private network. It is the unified surface for automating
-      the OVHcloud platform across compute, storage, network, and account lifecycle operations.
-    humanURL: https://api.us.ovhcloud.com/console/?branch=v1
-    baseURL: https://api.us.ovhcloud.com/v1
-    tags:
-    - Cloud
-    - Compute
-    - Servers
-    properties:
-    - type: Documentation
-      url: https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
-    - type: OpenAPI
-      url: openapi/ovh-cloud-openapi-original.yml
-    - type: Console
-      url: https://api.us.ovhcloud.com/console/?branch=v1
-    - type: X-NaftikoCapability
-      url: capabilities/ovh-cloud-cloud.yaml
+- aid: ovh-cloud:ovh-cloud-cloud-api
+  name: OVH Cloud Cloud API
+  description: The Cloud API from OVH Cloud — 469 operation(s) for cloud.
+  humanURL: https://api.us.ovhcloud.com/console/?branch=v1
+  baseURL: https://api.us.ovhcloud.com/v1
+  tags:
+  - Cloud
+  properties:
+  - type: OpenAPI
+    url: openapi/ovh-cloud-cloud-api-openapi.yml
+  - type: Documentation
+    url: >-
+      https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+  - type: Console
+    url: https://api.us.ovhcloud.com/console/?branch=v1
+  - type: X-NaftikoCapability
+    url: capabilities/ovh-cloud-cloud.yaml
 common:
   - type: AgenticAccess
     url: agentic-access/ovh-cloud-agentic-access.yml
