@@ -47,8 +47,6 @@ apis:
       https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
   - type: Console
     url: https://api.us.ovhcloud.com/console/?branch=v1
-  - type: X-NaftikoCapability
-    url: capabilities/ovh-cloud-cloud.yaml
 common:
   - type: AgenticAccess
     url: agentic-access/ovh-cloud-agentic-access.yml
