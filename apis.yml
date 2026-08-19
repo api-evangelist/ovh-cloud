@@ -30,7 +30,7 @@ tags:
 created: '2024-04-18'
 modified: '2026-05-19'
 url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: ovh-cloud:ovh-cloud-cloud-api
   name: OVH Cloud Cloud API
