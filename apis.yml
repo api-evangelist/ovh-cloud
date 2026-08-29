@@ -6,6 +6,18 @@ description: OVH Cloud is a leading provider of cloud computing services that of
   data centers located around the world, OVH Cloud offers high availability, scalability, and flexibility to meet the needs
   of its customers.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: self-serve
