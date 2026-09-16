@@ -1,10 +1,10 @@
 aid: ovh-cloud
 name: OVH Cloud
-description: OVH Cloud is a leading provider of cloud computing services that offer a wide range of solutions for businesses
-  of all sizes. From virtual private servers and dedicated servers to storage, networking, and security services, OVH Cloud
-  provides a comprehensive platform for organizations to build and deploy their applications and services in the cloud. With
-  data centers located around the world, OVH Cloud offers high availability, scalability, and flexibility to meet the needs
-  of its customers.
+description: OVH Cloud is a leading provider of cloud computing services that offer a wide range of solutions
+  for businesses of all sizes. From virtual private servers and dedicated servers to storage, networking,
+  and security services, OVH Cloud provides a comprehensive platform for organizations to build and deploy
+  their applications and services in the cloud. With data centers located around the world, OVH Cloud
+  offers high availability, scalability, and flexibility to meet the needs of its customers.
 type: Index
 deliveryModel:
   model: saas
@@ -35,17 +35,17 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ovh-cloud.png
 tags:
-  - Cloud
-  - Compute
-  - Servers
-  - Hosting
+- Cloud
+- Compute
+- Servers
+- Hosting
 created: '2024-04-18'
-modified: '2026-05-19'
+modified: '2026-09-16'
 url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 apis:
 - aid: ovh-cloud:ovh-cloud-cloud-api
-  name: OVH Cloud Cloud API
+  name: OVH Cloud API
   description: The Cloud API from OVH Cloud — 469 operation(s) for cloud.
   humanURL: https://api.us.ovhcloud.com/console/?branch=v1
   baseURL: https://api.us.ovhcloud.com/v1
@@ -55,59 +55,58 @@ apis:
   - type: OpenAPI
     url: openapi/ovh-cloud-cloud-api-openapi.yml
   - type: Documentation
-    url: >-
-      https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
+    url: https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777
   - type: Console
     url: https://api.us.ovhcloud.com/console/?branch=v1
 common:
-  - type: AgenticAccess
-    url: agentic-access/ovh-cloud-agentic-access.yml
-  - type: VulnerabilityDisclosure
-    url: security/ovh-cloud-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/ovh-cloud-domain-security.yml
-  - type: Authentication
-    url: authentication/ovh-cloud-authentication.yml
-  - type: OAuthScopes
-    url: scopes/ovh-cloud-scopes.yml
-  - type: GitHubOrganization
-    url: https://github.com/ovh
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/ovhgroup
-  - type: Developer
-    url: https://api.us.ovhcloud.com/
-  - type: StatusPage
-    url: https://status.us.ovhcloud.com/
-  - type: Blog
-    url: https://us.ovhcloud.com/resources/blog/
-  - type: Support
-    url: https://us.ovhcloud.com/support/
-  - type: CaseStudies
-    url: https://us.ovhcloud.com/resources/case-studies/
-  - type: Videos
-    url: https://us.ovhcloud.com/videos/
-  - type: Tutorials
-    url: https://us.ovhcloud.com/community/tutorials/
-  - type: UseCases
-    url: https://us.ovhcloud.com/solutions/use-cases/
-  - type: WhitePapers
-    url: https://us.ovhcloud.com/resources/white-papers/
-  - type: Glossary
-    url: https://us.ovhcloud.com/glossary/
-  - type: Login
-    url: https://us.ovhcloud.com/auth/
-  - type: Signup
-    url: https://us.ovhcloud.com/auth/
-  - type: Website
-    url: https://us.ovhcloud.com/
-  - type: About
-    url: https://us.ovhcloud.com/about/
-  - type: PressReleases
-    url: https://us.ovhcloud.com/press/
-  - type: TermsOfService
-    url: https://us.ovhcloud.com/legal/terms-of-service/
-  - type: PrivacyPolicy
-    url: https://us.ovhcloud.com/legal/privacy-policy/
+- type: AgenticAccess
+  url: agentic-access/ovh-cloud-agentic-access.yml
+- type: VulnerabilityDisclosure
+  url: security/ovh-cloud-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ovh-cloud-domain-security.yml
+- type: Authentication
+  url: authentication/ovh-cloud-authentication.yml
+- type: OAuthScopes
+  url: scopes/ovh-cloud-scopes.yml
+- type: GitHubOrganization
+  url: https://github.com/ovh
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ovhgroup
+- type: Developer
+  url: https://api.us.ovhcloud.com/
+- type: StatusPage
+  url: https://status.us.ovhcloud.com/
+- type: Blog
+  url: https://us.ovhcloud.com/resources/blog/
+- type: Support
+  url: https://us.ovhcloud.com/support/
+- type: CaseStudies
+  url: https://us.ovhcloud.com/resources/case-studies/
+- type: Videos
+  url: https://us.ovhcloud.com/videos/
+- type: Tutorials
+  url: https://us.ovhcloud.com/community/tutorials/
+- type: UseCases
+  url: https://us.ovhcloud.com/solutions/use-cases/
+- type: WhitePapers
+  url: https://us.ovhcloud.com/resources/white-papers/
+- type: Glossary
+  url: https://us.ovhcloud.com/glossary/
+- type: Login
+  url: https://us.ovhcloud.com/auth/
+- type: Signup
+  url: https://us.ovhcloud.com/auth/
+- type: Website
+  url: https://us.ovhcloud.com/
+- type: About
+  url: https://us.ovhcloud.com/about/
+- type: PressReleases
+  url: https://us.ovhcloud.com/press/
+- type: TermsOfService
+  url: https://us.ovhcloud.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://us.ovhcloud.com/legal/privacy-policy/
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
