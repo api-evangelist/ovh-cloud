@@ -1,0 +1,31 @@
+# Front Door AI Index — ovh-cloud — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ovh-cloud
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: us.ovhcloud.com
+  final_host: us.ovhcloud.com
+  ownership: own
+  owner: ovh-cloud
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 26
+  host_score: 26
+  density: 8.61
+  words: 3019
+  tiers:
+    agentic: 2
+    core: 24
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 16
+    machine learning: 7
+    agent: 3
+    AI assistant: 1
+    ML: 1
+    agentic: 1
+    smart: 1
