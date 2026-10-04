@@ -1,0 +1,26 @@
+slug: ovh-cloud
+provider: OVH Cloud
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 1
+edges:
+- tag: Cloud
+  spec_file: ovh-cloud-cloud-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.85
+  evidence: '''List Kubernetes available flavors for a region'', ''List container registry capabilities
+    per region'', schemas cloud.Project, cloud.ProjectInstanceCreation, cloud.ProjectNetworkPrivateCreation,
+    cloud.storage.Container'
+  reason: The operations provision and manage compute instances, Kubernetes clusters, networks, load balancers
+    and storage in a public cloud project — compute, storage, network and cloud infrastructure management.

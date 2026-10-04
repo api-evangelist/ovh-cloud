@@ -59,6 +59,9 @@ apis:
   - type: Console
     url: https://api.us.ovhcloud.com/console/?branch=v1
 common:
+- type: CapabilityMap
+  url: capabilities/ovh-cloud-capability-edges.yml
+  name: OVH Cloud Business Capability Map
 - type: AgenticAccess
   url: agentic-access/ovh-cloud-agentic-access.yml
 - type: VulnerabilityDisclosure
