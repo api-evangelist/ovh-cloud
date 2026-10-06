@@ -40,7 +40,7 @@ tags:
 - Servers
 - Hosting
 created: '2024-04-18'
-modified: '2026-09-16'
+modified: '2026-10-06'
 url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 apis:
@@ -59,6 +59,10 @@ apis:
   - type: Console
     url: https://api.us.ovhcloud.com/console/?branch=v1
 common:
+- url: https://blog.ovhcloud.com/en/
+  type: Blog
+- url: https://blog.ovhcloud.com/en/feed.xml
+  type: BlogRSS
 - type: CapabilityMap
   url: capabilities/ovh-cloud-capability-edges.yml
   name: OVH Cloud Business Capability Map
