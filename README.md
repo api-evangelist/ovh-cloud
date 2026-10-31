@@ -1,4 +1,4 @@
-# OVH Cloud (ovh-cloud)
+# OVH Cloud
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,56 +66,125 @@
 
 OVH Cloud is a leading provider of cloud computing services that offer a wide range of solutions for businesses of all sizes. From virtual private servers and dedicated servers to storage, networking, and security services, OVH Cloud provides a comprehensive platform for organizations to build and deploy their applications and services in the cloud. With data centers located around the world, OVH Cloud offers high availability, scalability, and flexibility to meet the needs of its customers.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml)
+**Areas:** Cloud · Compute · Servers · Hosting
 
-## Scope
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+## OVH Cloud on APIs.io
 
-## Tags:
- - Cloud, Compute, Servers, Hosting
+Everything profiled for OVH Cloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ovh-cloud/](https://apis.io/providers/ovh-cloud/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
-- **Created:** 2024-04-18
-- **Modified:** 2026-04-28
+### APIs (1)
 
-## APIs
+- [OVH Cloud API](https://apis.io/apis/ovh-cloud/ovh-cloud-cloud-api/) — The Cloud API from OVH Cloud — 469 operation(s) for cloud.
 
-### OVH Cloud API
-The OVHcloud API enables programmatic management of OVHcloud resources including dedicated servers, public cloud instances, storage, networking, Kubernetes, load balancers, container registries, databases, IP addressing, snapshots, SSH keys, billing operations, quotas, regions, and the vRack private network. It is the unified surface for automating the OVHcloud platform across compute, storage, network, and account lifecycle operations.
+### Published properties
 
-**Human URL:** [https://api.us.ovhcloud.com/console/?branch=v1](https://api.us.ovhcloud.com/console/?branch=v1)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Base URL:** [https://api.us.ovhcloud.com/v1](https://api.us.ovhcloud.com/v1)
+#### Agentic access (1)
 
-#### Tags:
- - Cloud, Compute, Servers
+Which operations an agent can call, which act, and which need a human in the loop.
 
-#### Properties
-- [Documentation](https://help.ovhcloud.com/csm/en-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042777)
-- [OpenAPI](openapi/ovh-cloud-openapi-original.yml)
-- [Console](https://api.us.ovhcloud.com/console/?branch=v1)
+- [Ovh Cloud Agentic Access](https://apis.io/agentic-access/ovh-cloud/ovh-cloud-agentic-access/)
 
-## Common Properties
-- [Developer](https://api.us.ovhcloud.com/)
-- [Status](https://status.us.ovhcloud.com/)
-- [Blog](https://us.ovhcloud.com/resources/blog/)
-- [Support](https://us.ovhcloud.com/support/)
-- [Case Studies](https://us.ovhcloud.com/resources/case-studies/)
-- [Videos](https://us.ovhcloud.com/videos/)
-- [Tutorials](https://us.ovhcloud.com/community/tutorials/)
-- [Use Cases](https://us.ovhcloud.com/solutions/use-cases/)
-- [White Papers](https://us.ovhcloud.com/resources/white-papers/)
-- [Glossary](https://us.ovhcloud.com/glossary/)
-- [Login](https://us.ovhcloud.com/auth/)
-- [Signup](https://us.ovhcloud.com/auth/)
+#### Collections (1)
+
+Postman and Open Collection request collections.
+
+- [OVH OVHcloud API specification Cloud API](https://apis.io/collections/ovh-cloud/open-ovh-cloud-cloud-api/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ovh Cloud Authentication](https://apis.io/security/ovh-cloud/ovh-cloud-authentication/)
+- [Ovh Cloud Domain Security](https://apis.io/security/ovh-cloud/ovh-cloud-domain-security/)
+- [Ovh Cloud Vulnerability Disclosure](https://apis.io/security/ovh-cloud/ovh-cloud-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ovh Cloud Scopes](https://apis.io/scopes/ovh-cloud/ovh-cloud-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ovh Cloud Plans Pricing](https://apis.io/plans/ovh-cloud/ovh-cloud-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ovh Cloud Rate Limits](https://apis.io/rate-limits/ovh-cloud/ovh-cloud-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ovh Cloud Finops](https://apis.io/finops/ovh-cloud/ovh-cloud-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://us.ovhcloud.com/)
-- [About](https://us.ovhcloud.com/about/)
-- [Press Releases](https://us.ovhcloud.com/press/)
-- [Terms of Service](https://us.ovhcloud.com/legal/terms-of-service/)
-- [Privacy Policy](https://us.ovhcloud.com/legal/privacy-policy/)
+- [Support](https://us.ovhcloud.com/support/)
+- [Blog](https://blog.ovhcloud.com/en/)
+- [Terms of service](https://us.ovhcloud.com/legal/terms-of-service/)
+- [Privacy policy](https://us.ovhcloud.com/legal/privacy-policy/)
+- [GitHub](https://github.com/ovh)
+- [Status](https://status.us.ovhcloud.com/)
 
-## Maintainers
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+## API Evangelist rating
+
+**Kin Score 38.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 47.2 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 42.1 |
+
+**Agent readiness 29.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ovh-cloud/](https://apis.io/providers/ovh-cloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OVH Cloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ovh-cloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
